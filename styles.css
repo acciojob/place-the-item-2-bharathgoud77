@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+.container{
+	display: flex;
+	font-size: 50px;
+	justify-content: center;
+	flex-flow: center;
+	flex-wrap: wrap;
+ 
+}
+.container .one{
+	background-color: red;
+	height: 100px;
+	width: 130px;
+	order: 2
+}
+.two{
+	background-color: blue;
+	height: 100px;
+	width: 130px;
+	order: 3
+}
+.three{
+	background-color: green;
+	height: 100px;
+	width: 130px;
+	order: 1
+}
